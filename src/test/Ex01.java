@@ -25,7 +25,18 @@ public class Ex01 {
 		BiFunction<Integer, Integer, Integer> dev = (a, b) -> a * b;
 		BiFunction<Integer, Integer, Integer> mul = (a, b) -> a / b;
 	}
+
 	private static int tich(int a, int b) {
 		return a / b;
+	}
+
+	private static void swap(int a, int b) {
+		a = a + b;
+		b = a - b;
+		a = a - b;
+
+	
+	
+	
 	}
 }
