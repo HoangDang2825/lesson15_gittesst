@@ -9,6 +9,7 @@ public class Ex01 {
 		System.out.println("Hieu 2 so a b: " + sub(a, b));
 		System.out.println("Tich 2 so a va b: " + tich(a, b));
 		lambda();
+		check(a);
 	}
 
 	private static int sum(int a, int b) {
@@ -34,9 +35,13 @@ public class Ex01 {
 		a = a + b;
 		b = a - b;
 		a = a - b;
-
+	}
 	
-	
-	
+	private static void check(int a) {
+		if (a % 2 == 0) {
+			System.out.println("So chan");
+		} else {
+			System.out.println("so le");
+		}
 	}
 }
